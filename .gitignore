@@ -1,0 +1,34 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# API Keys (never commit these!)
+**/api-keys.txt
+**/*-key.txt
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build files
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.log
+
+# Chrome extension private key
+*.pem

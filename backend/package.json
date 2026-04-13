@@ -1,0 +1,16 @@
+{
+  "name": "linkedin-outreach-backend",
+  "version": "1.0.0",
+  "description": "Backend API for LinkedIn Outreach Assistant",
+  "main": "generate.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "keywords": ["linkedin", "ai", "openai", "chrome-extension"],
+  "author": "BaBaYaGa78",
+  "license": "MIT"
+}

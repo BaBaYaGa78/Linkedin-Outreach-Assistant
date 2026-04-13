@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+    }
+    .info-box {
+      background: #f0f8ff;
+      border: 1px solid #0066cc;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    textarea {
+      width: 100%;
+      font-family: inherit;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #0066cc;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0052a3;
+    }
+  </style>
+</head>
+<body>
+  <h2>LinkedIn Outreach Assistant - Settings</h2>
+  
+  <div class="info-box">
+    🔒 <strong>Privacy Note:</strong> All information is stored locally in your browser only. Nothing is uploaded to any server except when generating messages.
+  </div>
+
+  <label>Resume / Experience:</label>
+  <textarea id="resume" rows="8" cols="50" placeholder="Paste your resume or key experience points here...
+
+Example:
+- Software Engineer at TechCorp (2022-2024)
+- Built AI-powered features using Python and TensorFlow
+- Led team of 3 engineers on product launch
+- MS in Computer Science from State University"></textarea><br>
+
+  <label>Additional Info:</label>
+  <textarea id="info" rows="4" cols="50" placeholder="Add any extra context...
+
+Example:
+- Passionate about AI/ML and product development
+- Open to roles in San Francisco or remote
+- Available to start immediately"></textarea><br>
+
+  <label>Prompt Style Instructions:</label>
+  <textarea id="instructions" rows="3" cols="50" placeholder="How should messages sound?
+
+Example:
+- Keep it casual and friendly
+- Emphasize technical skills
+- Mention interest in startups"></textarea><br>
+
+  <button id="saveBtn">Save Settings</button>
+
+  <script src="options.js"></script>
+</body>
+</html>

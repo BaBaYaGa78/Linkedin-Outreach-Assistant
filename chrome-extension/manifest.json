@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Outreach Assistant",
+  "version": "1.0",
+  "description": "Craft personalized LinkedIn messages easily.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
