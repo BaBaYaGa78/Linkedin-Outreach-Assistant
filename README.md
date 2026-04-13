@@ -118,13 +118,6 @@ Create an endpoint that:
 
 6. (Optional) Use "Suggest a Revision" to refine the message
 
-## 🔒 Security Notes
-
-**IMPORTANT**: Never commit API keys to GitHub. The original version of this extension had an exposed API key, which has been removed. Always:
-
-- Store API keys in environment variables
-- Use a backend to handle API calls
-- Add `.env` files to `.gitignore`
 
 ## 🛡️ Privacy
 
